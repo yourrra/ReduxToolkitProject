@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "title": "React",
+      "body": "React is not framework",
+      "id": 1
+    },
+    {
+      "title": "Redux",
+      "body": "ReaduxToolKit - cool",
+      "id": 2
+    },
+    {
+      "title": "Frontend",
+      "body": "Programist",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "React",
+      "age": 1,
+      "email": "google@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "React",
+      "age": 1,
+      "email": "google@gmail.com"
+    }
+  ],
+  "comments": [],
+  "profile": [
+    {
+      "name": "Pedro Duarte",
+      "age": "26",
+      "email": "yuri15616@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Pedro Frak",
+      "age": "23",
+      "email": "yu12316@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "rolez",
+      "age": "41",
+      "email": "wqqwe@gamil.com",
+      "id": 3
+    }
+  ]
+}

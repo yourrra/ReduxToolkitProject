@@ -1,0 +1,109 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.app {
+  width: 60%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 25px;
+  background-color: rgb(217, 217, 217);
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.post__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(237, 224, 183);
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.post__title {
+  display: flex;
+  gap: 12px;
+}
+
+.user {
+  padding: 20px;
+  border: 1px solid orange;
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  background-color: rgb(232, 204, 121);
+  padding: 3px 10px;
+  color: black;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.w100 {
+  width: 100%;
+}
+
+input {
+  all: unset;
+  cursor: pointer;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+  padding: 5px;
+  color: gray;
+  background-color: white;
+}
+
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.wrapper__input {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 25px;
+  background-color: rgb(217, 217, 217);
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.wrapper__create {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
